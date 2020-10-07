@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/reklama"
+        android:text="@string/reklama"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_width="0dp"
+        android:paddingStart="8dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/adsImage"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:background="@drawable/banner"
+        android:contentDescription="@string/banner_image_description"
+        app:layout_constraintTop_toBottomOf="@id/reklama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="@string/ads_title"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:background="@android:color/holo_blue_dark"
+        android:paddingStart="8dp"
+        app:layout_constraintEnd_toEndOf="@id/tvMore"
+        app:layout_constraintTop_toBottomOf="@+id/adsImage"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/tvMore"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/tv_more"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toTopOf="@id/tvTitle"
+        app:layout_constraintBottom_toBottomOf="@id/tvTitle"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lesson43</string>
+    <string name="reklama">REKLAMA</string>
+    <string name="ads_title">Express coffee</string>
+    <string name="more">More...</string>
+    <string name="post_title">What is Lorem Ipsum?</string>
+    <string name="post_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="post_image_description">Post Image Description</string>
+    <string name="like_button_description">Like button description</string>
+    <string name="dislike_button_description">Dislike button description</string>
+    <string name="banner_image_description">Banner image description</string>
+    <string name="tv_more">More</string>
+</resources>
